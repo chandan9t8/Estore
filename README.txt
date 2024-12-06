@@ -1,7 +1,5 @@
 The file structure of this project is
 
-Assignment3/
-│
 ├── Estore/
 │   ├── bin/                   # Directory for compiled .class files and JARs
 │   │
@@ -34,5 +32,5 @@ Instructions to execute the project:
 - `make all` to compile all the files
 - `rmiregistry &` to start the rmiregistry on the default port. If port already in use exception occurs, use `rmiregistry 3000 &`
 - `make runserver`  to start the server
-- connect to another remote server and `make runclient` to run the client
+- connect to another remote server and `make run client` to run the client
 - after performing operations, `make clean` to clean up the generated files.
